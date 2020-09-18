@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Me</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="img/ico" href="img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.production.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header class="page-header">
+      <!--Logo here-->
+      <img src="img/temp_logo.jpg" alt="" class="logo" />
+      <nav class="navigation-list page-header__item">
+        <ul role="menubar" style="list-style-type: none">
+          <li role="presentation">
+            <a
+              href="index.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="about.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item"
+              >About</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="work.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item"
+              >Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="contact.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="contact_profile">
+      <h1 id="contact">Contact</h1>
+      <div>
+        Chris Goodwin<br />
+        Seabrook, NH 03874<br />
+        Email - <a href="mailto:Cmgoodwin96@gmail.com">Cmgoodwin96@gmail.com</a
+        ><br />
+        Tel - <a href="tel:+6038012598">(603)801-2598</a><br />
+        <a href="skype:live:.cid.41b46414807fc944 ">Chris Goodwin on Skype</a
+        ><br />
+        <!--Turn contact me into button-->
+        <div>
+          <a href="mailto:cmgoodwin96@gmail.com" class="button">Contact me</a>
+        </div>
+      </div>
+      <div class="contact_form">
+        <form action="" method="post" id="contact-form">
+          <label class="standard-label" for="contact-email">Email: </label>
+          <input type="email" id="contact-email" required />
+
+          <label class="standard-label" for="contact-tel">Telephone: </label>
+          <input
+            type="tel"
+            id="contact-tel"
+            pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+          />
+
+          <label class="standard-label" for="contact-msg">Message: </label>
+          <textarea maxlength="240" id="contact-msg" required></textarea>
+
+          <input type="submit" value="Send message" />
+        </form>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <div class="social_media">
+        <p>Find me on</p>
+        <a href="https://github.com/cm-goodwin" target="blank">
+          <img src="img/github_icon.svg" alt="Github"
+        /></a>
+        <img src="img/twitter_icon.svg" alt="Twitter" />
+        <a
+          href="https://www.linkedin.com/in/chris-goodwin-758452117/"
+          target="blank"
+        >
+          <img src="img/linkedin_icon.svg" alt="LinkedIn"
+        /></a>
+      </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+  </body>
+</html>
